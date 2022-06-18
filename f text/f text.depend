@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1638169154 source:c:\users\cosmin\desktop\denis info\f text\main.cpp
+	<iostream>
+	<fstream>
+
