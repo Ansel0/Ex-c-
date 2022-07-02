@@ -1,20 +1,21 @@
 #include <iostream>
 #include <cstring>
-using namespace std;
 
-char s[251],t[251];
-int n=0,i;
+using namespace std;
+int i,j,k,n,m,nr=0;
+char s[250],t[250];
 
 int main()
 {
-    n=0;
     cin >> s >> t;
-    for(i=0;i<strlen(s);i++)
-        if(isdigit(s[i])!=0)
-            n=n*10+(s[i]-'0');
-    for(i=0;i<strlen(t);i++)
-        if(isdigit(t[i])!=0)
-            n=n*10+(t[i]-'0');
-    cout <<endl << n;
+    n=strlen(s);
+    for(i=0;i<n;i++)
+        if(isdigit(s[i]))
+            nr=nr*10+int(s[i])-48;
+    n=strlen(t);
+    for(i=0;i<n;i++)
+        if(isdigit(t[i]))
+            nr=nr*10+int(t[i])-48;
+    cout << nr;
     return 0;
 }
