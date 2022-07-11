@@ -20,6 +20,6 @@ int main()
                 j++;
             strcpy(s+i,s+j);
         }
-    cout << s << endl << n;
+    fout << s << endl << n;
     return 0;
 }

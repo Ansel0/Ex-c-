@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1651160948 source:c:\users\cosmin\desktop\denis info\42 4\main.cpp
+1656774460 source:c:\users\cosmin\desktop\denis info\42 4\main.cpp
 	<iostream>
 	<fstream>
+	<cstring>
 
